@@ -1,0 +1,15 @@
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\bin\Debug\BackGroundWorker.exe
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\bin\Debug\BackGroundWorker.pdb
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.Form1.resources
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.Properties.Resources.resources
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.exe
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.pdb
+E:\FrKanBox\fanrong1985@126.com\IT学习\自己练习的代码\BackGroundWorker\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.csproj.GenerateResource.Cache
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.exe
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.pdb
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\bin\Debug\BackGroundWorker.exe
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\bin\Debug\BackGroundWorker.pdb
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.csprojResolveAssemblyReference.cache
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.Form1.resources
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.Properties.Resources.resources
+C:\Users\rong.fan\Desktop\BackGroundWorker\BackGroundWorker\obj\x86\Debug\BackGroundWorker.csproj.GenerateResource.Cache
