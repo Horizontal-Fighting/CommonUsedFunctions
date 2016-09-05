@@ -1,0 +1,2 @@
+C:\Users\rong.fan\Desktop\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+C:\Users\rong.fan\Desktop\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
