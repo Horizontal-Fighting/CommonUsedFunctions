@@ -1,0 +1,11 @@
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProeuctStore\ProductStore.Front\bin\ProductStore.Front.dll.config
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProeuctStore\ProductStore.Front\bin\ProductStore.Front.dll
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProeuctStore\ProductStore.Front\bin\ProductStore.Front.pdb
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProeuctStore\ProductStore.Front\obj\Debug\ProductStore.Front.csprojResolveAssemblyReference.cache
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProeuctStore\ProductStore.Front\obj\Debug\ProductStore.Front.dll
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProeuctStore\ProductStore.Front\obj\Debug\ProductStore.Front.pdb
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProductStore\ProductStore.Front\bin\ProductStore.Front.dll.config
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProductStore\ProductStore.Front\bin\ProductStore.Front.dll
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProductStore\ProductStore.Front\bin\ProductStore.Front.pdb
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProductStore\ProductStore.Front\obj\Debug\ProductStore.Front.dll
+E:\DeskDocuments\NET Note\SelfhostingWebapi\ProductStore\ProductStore.Front\obj\Debug\ProductStore.Front.pdb
