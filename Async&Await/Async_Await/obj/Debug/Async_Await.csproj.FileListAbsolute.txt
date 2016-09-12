@@ -4,3 +4,6 @@ C:\Users\rong.fan\Desktop\Async&Await\Async_Await\bin\Debug\Async_Await.pdb
 C:\Users\rong.fan\Desktop\Async&Await\Async_Await\obj\Debug\Async_Await.csprojResolveAssemblyReference.cache
 C:\Users\rong.fan\Desktop\Async&Await\Async_Await\obj\Debug\Async_Await.exe
 C:\Users\rong.fan\Desktop\Async&Await\Async_Await\obj\Debug\Async_Await.pdb
+E:\Git\CommonUsedFunctions\Async&Await\Async_Await\bin\Debug\Async_Await.exe.config
+E:\Git\CommonUsedFunctions\Async&Await\Async_Await\obj\Debug\Async_Await.exe
+E:\Git\CommonUsedFunctions\Async&Await\Async_Await\obj\Debug\Async_Await.pdb

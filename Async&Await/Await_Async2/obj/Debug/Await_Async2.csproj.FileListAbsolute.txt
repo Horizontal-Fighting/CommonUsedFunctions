@@ -1,0 +1,9 @@
+C:\Users\rong.fan\Desktop\Await_Async2\bin\Debug\Await_Async2.exe.config
+C:\Users\rong.fan\Desktop\Await_Async2\obj\Debug\Await_Async2.csprojResolveAssemblyReference.cache
+C:\Users\rong.fan\Desktop\Await_Async2\bin\Debug\Await_Async2.exe
+C:\Users\rong.fan\Desktop\Await_Async2\bin\Debug\Await_Async2.pdb
+C:\Users\rong.fan\Desktop\Await_Async2\obj\Debug\Await_Async2.exe
+C:\Users\rong.fan\Desktop\Await_Async2\obj\Debug\Await_Async2.pdb
+E:\Git\CommonUsedFunctions\Async&Await\Await_Async2\bin\Debug\Await_Async2.exe.config
+E:\Git\CommonUsedFunctions\Async&Await\Await_Async2\obj\Debug\Await_Async2.exe
+E:\Git\CommonUsedFunctions\Async&Await\Await_Async2\obj\Debug\Await_Async2.pdb
