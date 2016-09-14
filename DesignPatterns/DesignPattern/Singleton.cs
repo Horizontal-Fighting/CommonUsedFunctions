@@ -1,29 +1,21 @@
-﻿/* Created by:Rong Fan
- * email:rong.fan1031@gmail.com
- * Desc: sigleton design pattern
- * Dt: 2016-9-5
- * Version:.NET 2.0
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DesignPattern
 {
-    public class Singleton
+    public class A
     {
-
     }
 
-
     /// <summary>
-    /// Singleton
+    /// 单例模式;Singleton
     /// </summary>
-    public class SingletonProvider
+    public class AProvider
     {
-        private static Singleton instance;
+        private static A instance;
         private static readonly object syncRoot = new object();
-        public static Singleton GetInstance()
+        public static A GetInstance()
         {
             if (instance == null)
             {
@@ -31,7 +23,7 @@ namespace DesignPattern
                 {
                     if (instance == null)
                     {
-                        instance = new Singleton();
+                        instance = new A();
                     }
                 }
             }
