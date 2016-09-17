@@ -1,0 +1,9 @@
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\bin\Debug\nunit.framework.dll
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\bin\Debug\nunit.framework.xml
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\bin\Debug\TestSetupIn2015.dll
+C:\Users\rong.fan\Desktop\NUnitTestSample\TestSetupIn2015\UnitTest\bin\Debug\TestSetupIn2015.pdb
