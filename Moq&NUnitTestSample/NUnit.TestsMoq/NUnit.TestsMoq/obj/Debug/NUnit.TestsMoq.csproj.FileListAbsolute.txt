@@ -1,0 +1,8 @@
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\bin\Debug\NUnit.TestsMoq.dll
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\bin\Debug\NUnit.TestsMoq.pdb
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\bin\Debug\nunit.framework.dll
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\bin\Debug\nunit.framework.xml
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\obj\Debug\NUnit.TestsMoq.dll
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\obj\Debug\NUnit.TestsMoq.pdb
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\bin\Debug\Moq.dll
+C:\Users\rong.fan\Desktop\MoqTestSample\NUnit.TestsMoq\NUnit.TestsMoq\bin\Debug\Moq.xml
