@@ -23,7 +23,7 @@ namespace Await_Async2
 
         static void Main(string[] args)
         {
-             //启动计时器; start timer
+            //启动计时器; start timer
             Watch.Start();
 
             const string url1 = "http://www.cnblogs.com/";
@@ -47,6 +47,9 @@ namespace Await_Async2
 
             Console.ReadKey();
         }
+
+
+   
 
         /// <summary>
         /// 统计字符个数; count word number

@@ -1,0 +1,13 @@
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFrameworkExample.DAL.dll.config
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFrameworkExample.DAL.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFrameworkExample.DAL.pdb
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFramework.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFrameworkExample.Entity.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFramework.xml
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\EntityFrameworkExample.Entity.pdb
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\obj\Debug\EntityFrameworkExample.DAL.csprojResolveAssemblyReference.cache
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\obj\Debug\EntityFrameworkExample.DAL.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\obj\Debug\EntityFrameworkExample.DAL.pdb
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.DAL\bin\Debug\App.Config

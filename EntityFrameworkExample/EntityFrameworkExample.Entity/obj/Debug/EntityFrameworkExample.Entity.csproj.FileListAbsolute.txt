@@ -1,0 +1,4 @@
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.Entity\bin\Debug\EntityFrameworkExample.Entity.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.Entity\bin\Debug\EntityFrameworkExample.Entity.pdb
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.Entity\obj\Debug\EntityFrameworkExample.Entity.dll
+E:\Git\CommonUsedFunctions\EntityFrameworkExample\EntityFrameworkExample.Entity\obj\Debug\EntityFrameworkExample.Entity.pdb
