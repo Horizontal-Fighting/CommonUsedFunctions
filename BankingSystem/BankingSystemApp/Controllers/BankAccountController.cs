@@ -81,27 +81,27 @@ namespace BankingSystemApp.Controllers
         [HttpPut]
         public async Task<IHttpActionResult> WithDraw(string accountNumber, decimal money)
         {
-            try
-            {
+            //try
+            //{
                 var targetAccount = accounts
                     .Where(r => r.AccountNumber == accountNumber)
                     .Select(r => r)
                     .FirstOrDefault();
 
                 if (targetAccount == null)
-                    return await Task.FromResult(InternalServerError(new Exception("can not find account:" + accountNumber)));
+                    throw new Exception("can not find account:" + accountNumber);
 
                 if (money < 0)
-                    return await Task.FromResult(InternalServerError(new Exception("WithDraw should be more than 0.")));
+                    throw new Exception("WithDraw should be more than 0.");
 
                 targetAccount.WithDraw(money);// -= money;
 
                 return await Task.FromResult(Ok(targetAccount));
-            }
-            catch (Exception ex)
-            {
-                return await Task.FromResult(InternalServerError(ex));
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    return await Task.FromResult(InternalServerError(ex));
+            //}
         }
 
     }

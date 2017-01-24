@@ -39,35 +39,41 @@ namespace BankingSystemApp.Models
         private decimal balance;
 
 
+        private object thisLock = new object();
 
         public decimal Deposit(decimal money)
         {
-            if (money <= 0m)
-                throw new ArgumentOutOfRangeException("Deposit should more than $0.");
-
-            this.balance = this.Balance + money;
-
-            return this.Balance;
+            lock(thisLock)
+            {
+                if (money <= 0m)
+                    throw new ArgumentOutOfRangeException("Deposit should more than $0.");
+                this.balance = this.Balance + money;
+                return this.Balance;
+            }
+           
         }
 
         public decimal WithDraw(decimal money)
         {
-            if (money <= 0m)
-                throw new ArgumentOutOfRangeException("Withdraw should more than $0.");
+            lock (thisLock)
+            {
+                if (money <= 0m)
+                    throw new ArgumentOutOfRangeException("Withdraw should more than $0.");
 
-            if(money > this.Balance * 0.9m)
-                throw new ArgumentOutOfRangeException("Withdraw more than 90% money at one time is not allowed.");
+                if (money > this.Balance * 0.9m)
+                    throw new ArgumentOutOfRangeException("Withdraw more than 90% money at one time is not allowed.");
 
-            if(money>1000m)
-                throw new ArgumentOutOfRangeException("Withdraw more than $1000 at one time is not allowed.");
+                if (money > 1000m)
+                    throw new ArgumentOutOfRangeException("Withdraw more than $1000 at one time is not allowed.");
 
 
-            decimal currentBalance = Balance - money;
-            if (currentBalance < 100m)
-                throw new ArgumentOutOfRangeException("Balance must more than $100.");
+                decimal currentBalance = Balance - money;
+                if (currentBalance < 100m)
+                    throw new ArgumentOutOfRangeException("Balance must more than $100.");
 
-            this.balance = currentBalance;
-            return Balance;
+                this.balance = currentBalance;
+                return Balance;
+            }
         }
 
         public override int GetHashCode()
