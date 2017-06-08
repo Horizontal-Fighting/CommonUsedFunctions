@@ -41,6 +41,11 @@ namespace Encryption
             Console.WriteLine("decryptedStr2:" + decryptedStr2);
             Console.WriteLine("\r\n");
 
+            //encrypt1 SHA256
+            string encryptedSHA256Str = Encryptor.EncryptSHA256("1QAZ@wsx");
+            Console.WriteLine("encryptedSHA256Str:" + encryptedSHA256Str);
+            Console.WriteLine("\r\n");
+
             Console.ReadKey();
         }
     }

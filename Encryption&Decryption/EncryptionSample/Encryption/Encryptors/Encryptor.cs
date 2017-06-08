@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace LightningAnalyzer.Common
+namespace Encryption
 {
     public class Encryptor
     {
@@ -177,6 +177,18 @@ namespace LightningAnalyzer.Common
             if (string.IsNullOrEmpty(decryptString) || string.IsNullOrEmpty(CodeKey))
                 throw new ArgumentNullException();
             return DecryptAES(decryptString, CodeKey);
+        }
+
+        public static string EncryptSHA256(string plainString)
+        {
+            SHA256Managed crypt = new SHA256Managed();
+            string hash = String.Empty;
+            byte[] crypto = crypt.ComputeHash(Encoding.ASCII.GetBytes(plainString), 0, Encoding.ASCII.GetByteCount(plainString));
+            foreach (byte theByte in crypto)
+            {
+                hash += theByte.ToString("x2");
+            }
+            return hash;
         }
 
 
