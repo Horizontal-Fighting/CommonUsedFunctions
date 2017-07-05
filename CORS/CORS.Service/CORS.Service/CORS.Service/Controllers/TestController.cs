@@ -8,7 +8,7 @@ using System.Web.Http.Cors;
 
 namespace CORS.Service.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    //[EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TestController : ApiController
     {
         public HttpResponseMessage Get()

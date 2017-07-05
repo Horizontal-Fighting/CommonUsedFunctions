@@ -36,7 +36,6 @@ E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\bin\Ne
 E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\bin\System.Net.Http.Formatting.xml
 E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\bin\System.Web.Http.xml
 E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\bin\System.Web.Http.WebHost.xml
-E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\obj\Debug\CORS.Service.csprojResolveAssemblyReference.cache
 E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\obj\Debug\CORS.Service.dll
 E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\obj\Debug\CORS.Service.pdb
 E:\Github\CommonUsedFunctions\CORS\CORS.Service\CORS.Service\CORS.Service\bin\System.Web.Cors.dll
