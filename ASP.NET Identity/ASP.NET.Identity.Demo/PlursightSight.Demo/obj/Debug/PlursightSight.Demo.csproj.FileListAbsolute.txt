@@ -1,0 +1,14 @@
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\PlursightSight.Demo.exe.config
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\PlursightSight.Demo.exe
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\PlursightSight.Demo.pdb
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.dll
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.SqlServer.dll
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.xml
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.SqlServer.xml
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\obj\Debug\PlursightSight.Demo.csprojResolveAssemblyReference.cache
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\obj\Debug\PlursightSight.Demo.exe
+E:\SourceCodes\ASP.NET Identity\PlursightSight.Demo\PlursightSight.Demo\obj\Debug\PlursightSight.Demo.pdb

@@ -16,3 +16,9 @@ C:\Users\rex\Desktop\EncryptionSample-master\EncryptionSample\Encryption\obj\Deb
 C:\Users\rex\Desktop\EncryptionSample-master\EncryptionSample\Encryption\bin\Debug\Encryption.exe
 C:\Users\rex\Desktop\EncryptionSample-master\EncryptionSample\Encryption\bin\Debug\Encryption.pdb
 C:\Users\rex\Desktop\EncryptionSample-master\EncryptionSample\Encryption\obj\Debug\Encryption.csprojResolveAssemblyReference.cache
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\bin\Debug\Encryption.exe.config
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\bin\Debug\Encryption.exe
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\bin\Debug\Encryption.pdb
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\obj\Debug\Encryption.csprojResolveAssemblyReference.cache
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\obj\Debug\Encryption.exe
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\obj\Debug\Encryption.pdb
