@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,14 @@ namespace Encryption
             string contentToBeEncrypted="654789321";
             RSAEncryption rsaCryption = new RSAEncryption();
 
-            rsaCryption.RSAKey(out RSAprivateKey, out RSApublicKey);
+            String privateKeyPathFile = AppDomain.CurrentDomain.BaseDirectory + @"\Keys\PrivateKey.txt";
+            RSAprivateKey = File.ReadAllText(privateKeyPathFile);
+
+            String publicKeyPathFile = AppDomain.CurrentDomain.BaseDirectory + @"\Keys\PublicKey.txt";
+            RSApublicKey = File.ReadAllText(publicKeyPathFile);
+
+
+            //rsaCryption.RSAKey(out RSAprivateKey, out RSApublicKey);
             Console.WriteLine("RSAprivateKey:"+ RSAprivateKey);
             Console.WriteLine("\r\n" );
             Console.WriteLine("RSApublicKey:" + RSApublicKey);

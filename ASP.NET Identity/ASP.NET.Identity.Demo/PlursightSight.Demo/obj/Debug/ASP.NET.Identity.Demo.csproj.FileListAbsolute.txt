@@ -1,0 +1,14 @@
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\ASP.NET.Identity.Demo.exe.config
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\ASP.NET.Identity.Demo.exe
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\ASP.NET.Identity.Demo.pdb
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.dll
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.SqlServer.dll
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.xml
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\EntityFramework.SqlServer.xml
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\obj\Debug\ASP.NET.Identity.Demo.exe
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\obj\Debug\ASP.NET.Identity.Demo.pdb
+E:\Github\CommonUsedFunctions\ASP.NET Identity\ASP.NET.Identity.Demo\PlursightSight.Demo\obj\Debug\ASP.NET.Identity.Demo.csprojResolveAssemblyReference.cache

@@ -7,8 +7,8 @@
     <ProjectGuid>{AC1D26FD-9CEB-4EF1-B15F-5182E779F57F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PlursightSight.Demo</RootNamespace>
-    <AssemblyName>PlursightSight.Demo</AssemblyName>
+    <RootNamespace>ASP.NET.Identity.Demo</RootNamespace>
+    <AssemblyName>ASP.NET.Identity.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

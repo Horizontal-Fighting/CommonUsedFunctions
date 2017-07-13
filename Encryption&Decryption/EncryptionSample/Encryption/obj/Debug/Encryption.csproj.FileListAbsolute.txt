@@ -22,3 +22,5 @@ E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\
 E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\obj\Debug\Encryption.csprojResolveAssemblyReference.cache
 E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\obj\Debug\Encryption.exe
 E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\obj\Debug\Encryption.pdb
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\bin\Debug\Keys\PrivateKey.txt
+E:\Github\CommonUsedFunctions\Encryption&Decryption\EncryptionSample\Encryption\bin\Debug\Keys\PublicKey.txt
