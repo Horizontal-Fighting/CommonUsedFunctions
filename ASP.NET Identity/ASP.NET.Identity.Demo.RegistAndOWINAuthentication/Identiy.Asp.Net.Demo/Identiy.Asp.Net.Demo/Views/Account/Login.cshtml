@@ -1,0 +1,19 @@
+﻿@model Identiy.Asp.Net.Demo.Controllers.LoginModel
+
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h1>Login</h1>
+<hr />
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+    @Html.LabelFor(x => x.UserName) @Html.TextBoxFor(x => x.UserName)
+    <br />
+    @Html.LabelFor(x => x.Password) @Html.PasswordFor(x => x.Password)
+    <br />
+    <input class="btn" type="submit" value="Login">
+}

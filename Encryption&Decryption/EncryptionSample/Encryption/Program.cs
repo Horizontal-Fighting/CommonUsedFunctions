@@ -22,7 +22,6 @@ namespace Encryption
             String publicKeyPathFile = AppDomain.CurrentDomain.BaseDirectory + @"\Keys\PublicKey.txt";
             RSApublicKey = File.ReadAllText(publicKeyPathFile);
 
-
             //rsaCryption.RSAKey(out RSAprivateKey, out RSApublicKey);
             Console.WriteLine("RSAprivateKey:"+ RSAprivateKey);
             Console.WriteLine("\r\n" );

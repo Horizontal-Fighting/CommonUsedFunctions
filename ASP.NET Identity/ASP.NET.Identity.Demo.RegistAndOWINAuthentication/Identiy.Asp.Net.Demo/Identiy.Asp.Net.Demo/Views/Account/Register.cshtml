@@ -1,0 +1,19 @@
+﻿@model Identiy.Asp.Net.Demo.Controllers.RegisterModel
+
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<h1>Register</h1>
+<hr/>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+      @Html.LabelFor(x=>x.UserName) @Html.TextBoxFor(x=>x.UserName)
+      <br/>
+      @Html.LabelFor(x=>x.Password) @Html.PasswordFor(x=>x.Password)
+      <br />
+      <input class="btn" type="submit" value="Register"> 
+}
