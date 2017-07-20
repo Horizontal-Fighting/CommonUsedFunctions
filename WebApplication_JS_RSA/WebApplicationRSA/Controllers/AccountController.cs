@@ -66,7 +66,7 @@ namespace WebApplicationRSA.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Login()
+        public async Task<ActionResult> Login(LoginModel loginModel)
         {
             var form = Request.Form;
             string plainTextPassword = form["plainTextPassword"].ToString();
