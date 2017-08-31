@@ -1,0 +1,72 @@
+﻿@model WebApplication_JS_RSA.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "Log in";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="wrapper--login">
+
+
+    <div class="wrapper--login__body">
+        <h1>Login</h1>
+        @using (@Html.BeginForm("Login", "Account", FormMethod.Post, new { id = "loginForm" }))
+        {
+            <div id="AccountLoginURL" class="hidden" data-url="@Url.Action("login", "account")"></div>
+            @Html.AntiForgeryToken()
+
+            <div class="val">
+                @Html.LabelFor(m => m.UserName)
+                <div class="val__field">
+                    @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", id = "userNameTextBox" })
+                    @Html.ValidationMessageFor(model => model.UserName)
+                </div>
+            </div>
+
+            <div class="val">
+                @Html.LabelFor(m => Model.EncryptedPassword)
+                <div class="val__field">
+                    @Html.PasswordFor(model => model.EncryptedPassword, new { @class = "form-control", id = "passwordTextBox" })
+                    @Html.ValidationMessageFor(model => model.EncryptedPassword)
+                </div>
+            </div>
+
+
+            @Html.HiddenFor(model => model.ReturnUrl)
+            @Html.HiddenFor(model => model.RedirectDomain)
+
+
+
+            <div class="val__message" id="errorMsg"></div>
+
+            <div class="row">
+                <input type="button" id="LoginButton" value="Login" class="button--primary">
+            </div>
+        }
+
+        <div id="PublicKey" class="hidden" data-val="@Model.PublicKey"></div>
+
+
+        <div class="row line">
+            <span class="line__1"></span>or<span class="line__2"></span>
+        </div>
+
+        <div class="row">
+            <a href="@Url.Action("forgotpassword", "Account")" class="button--secondary">Forgot Password ?</a>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/jquery-1.10.2.min.js")    
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Scripts/jsencrypt.js")
+    @Scripts.Render("~/Scripts/Views/Account/Login.js")
+}
