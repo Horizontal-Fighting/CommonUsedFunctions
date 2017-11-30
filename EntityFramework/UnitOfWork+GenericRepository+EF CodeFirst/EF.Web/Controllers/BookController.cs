@@ -10,10 +10,16 @@ namespace EF.Web.Controllers
     {
         private UnitOfWork unitOfWork = new UnitOfWork();
         private Repository<Book> bookRepository;
+        private Repository<Account> accountRepository;
+        private Repository<SingleCurrencyCashAccount> singleCurrencyCashAccountRepository;
+        private Repository<CashAccount> cashAccountRepository;
 
         public BookController()
         {
-            bookRepository = unitOfWork.Repository<Book>();
+            bookRepository = unitOfWork.Repository<Book>();     
+            singleCurrencyCashAccountRepository = unitOfWork.Repository<SingleCurrencyCashAccount>();
+            cashAccountRepository = unitOfWork.Repository<CashAccount>();
+            accountRepository = unitOfWork.Repository<Account>();
         }
 
         public ActionResult Index()
@@ -35,26 +41,28 @@ namespace EF.Web.Controllers
         [HttpPost]
         public ActionResult CreateEditBook(Book model)
         {
-            if (model.ID == 0)
+            model.CurrencyType = CurrencyType.USD;
+            if (model.Id == 0)
             {
-                model.ModifiedDate = System.DateTime.Now;
-                model.AddedDate = System.DateTime.Now;
-                model.IP = Request.UserHostAddress;
+                model.CreatedAt = System.DateTime.Now;
+                model.UpdatedAt = System.DateTime.Now;
+                model.CreatedBy = Request.UserHostAddress;
+                model.UpdatedBy = Request.UserHostAddress;
                 bookRepository.Insert(model);
             }
             else
             {
-                var editModel = bookRepository.GetById(model.ID);
+                var editModel = bookRepository.GetById(model.Id);
                 editModel.Title = model.Title;
                 editModel.Author = model.Author;
                 editModel.ISBN = model.ISBN;
                 editModel.Published = model.Published;
-                editModel.ModifiedDate = System.DateTime.Now;
-                editModel.IP = Request.UserHostAddress;
+                editModel.UpdatedAt = System.DateTime.Now;
+                //editModel.IP = Request.UserHostAddress;
                 bookRepository.Update(editModel);
             }
 
-            if (model.ID > 0)
+            if (model.Id > 0)
             {
                 return RedirectToAction("Index");
             }

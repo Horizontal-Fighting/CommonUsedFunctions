@@ -9,15 +9,15 @@ namespace EF.Data.Mapping
        public BookMap()
        {
            //主键
-           HasKey(t => t.ID);
-             
-           //属性名
-           Property(t => t.ID).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+           HasKey(t => t.Id);
+            Property(t => t.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+
+            //属性名
            Property(t => t.Title).IsRequired();
            Property(t => t.Author).IsRequired();
            Property(t => t.ISBN).IsRequired();
            Property(t => t.Published).IsRequired();
-           
+           Property(t => t.CurrencyType).IsRequired();
            //表名
            ToTable("Books");
        }

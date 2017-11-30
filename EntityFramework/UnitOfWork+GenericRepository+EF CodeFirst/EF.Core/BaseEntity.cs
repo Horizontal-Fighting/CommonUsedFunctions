@@ -4,9 +4,14 @@ namespace EF.Core
 {
    public abstract class BaseEntity
     {
-        public Int64 ID { get; set; }
-        public DateTime AddedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
-        public string IP { get; set; }
+        public Int64 Id { get; set; }
+
+        public DateTime? CreatedAt { get; set; }
+
+        public string CreatedBy { get; set; }
+
+        public DateTime? UpdatedAt { get; set; }
+
+        public string UpdatedBy { get; set; }
     }
 }
