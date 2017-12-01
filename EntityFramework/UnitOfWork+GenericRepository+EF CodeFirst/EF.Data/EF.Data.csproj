@@ -48,6 +48,8 @@
     <Compile Include="Mapping\AccountMap.cs" />
     <Compile Include="Mapping\BookMap.cs" />
     <Compile Include="Mapping\CashAccountMap.cs" />
+    <Compile Include="Mapping\CommisionMap.cs" />
+    <Compile Include="Mapping\MarginAccountMap.cs" />
     <Compile Include="Mapping\SingleCurrencyCashAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />

@@ -3,6 +3,7 @@ using System.Data.Entity;
 using System.Data.Entity.Validation;
 using System.Linq;
 using EF.Core;
+using System.Linq.Expressions;
 
 namespace EF.Data
 {
@@ -15,6 +16,40 @@ namespace EF.Data
         public Repository(EFDbContext context)
         {
             this.context = context;
+        }
+
+        public virtual IQueryable<T> Get(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = "")
+        {
+            IQueryable<T> query = entities;
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            foreach (var includeProperty in includeProperties.Split
+                (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+            if (orderBy != null)
+            {
+                return orderBy(query).AsQueryable();
+            }
+            else
+            {
+                return query.AsQueryable();
+            }
+        }
+
+        /// <summary>
+        ///     Generic method to fetch all the records from db
+        /// </summary>
+        /// <returns></returns>
+        public virtual IQueryable<T> GetAll()
+        {
+            return entities.AsQueryable();
         }
 
         public T GetById(object id)

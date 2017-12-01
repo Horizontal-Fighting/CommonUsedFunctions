@@ -49,7 +49,9 @@
     <Compile Include="Data\Account.cs" />
     <Compile Include="Data\Book.cs" />
     <Compile Include="Data\CashAccount.cs" />
+    <Compile Include="Data\Commisions.cs" />
     <Compile Include="Data\Enums.cs" />
+    <Compile Include="Data\MarginAccount.cs" />
     <Compile Include="Data\SingleCurrencyCashAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

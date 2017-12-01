@@ -52,10 +52,18 @@ namespace EF.Data
             singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.RMB, CashAccount = cashAccount });
             cashAccount.SingleCurrencyCashAccounts = singleCurrencyCashAccounts;
 
-            Account account = new Account();
-            account.AccountType = AccountType.Main;
-            account.CashAccount = cashAccount;
-            cashAccount.Account = account;
+            MarginAccount marginAccount = new MarginAccount();
+            marginAccount.CashBalance = 0m;
+            marginAccount.TotalAssets = 0;
+            marginAccount.PositionValue = 0;
+            marginAccount.PositionValue = 0;
+            marginAccount.CashAccount = new CashAccount();
+
+            MainAccount mainAccount = new MainAccount();
+            mainAccount.CashAccount = cashAccount;
+            cashAccount.Account = mainAccount;
+            marginAccount.MainAccount = mainAccount;
+            mainAccount.MarginAccount = marginAccount;
 
             //以下注释部分为非必要代码
             //foreach (var tmp in singleCurrencyCashAccounts)
@@ -63,7 +71,7 @@ namespace EF.Data
 
             //context.Set<CashAccount>().Add(cashAccount);
 
-            context.Set<Account>().Add(account);
+            context.Set<Account>().Add(mainAccount);
 
             base.Seed(context);
         }

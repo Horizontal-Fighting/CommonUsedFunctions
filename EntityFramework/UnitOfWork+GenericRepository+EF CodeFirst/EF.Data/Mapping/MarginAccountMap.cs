@@ -9,22 +9,19 @@ using System.Threading.Tasks;
 
 namespace EF.Data.Mapping
 {
-    public class CashAccountMap : EntityTypeConfiguration<CashAccount>
+    public class MarginAccountMap:EntityTypeConfiguration<MarginAccount>
     {
-        public CashAccountMap()
+        public MarginAccountMap()
         {
             //主键
             HasKey(t => t.Id);
             Property(t => t.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
-
             //属性名
 
 
             //表名
-            ToTable("T_CashAccount");
+            ToTable("T_MarginAccount");
         }
     }
-
-    
 }

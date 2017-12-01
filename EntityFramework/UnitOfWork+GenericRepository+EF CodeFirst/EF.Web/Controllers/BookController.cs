@@ -24,7 +24,15 @@ namespace EF.Web.Controllers
 
         public ActionResult Index()
         {
+            Account personalAccount = new PersonalAccount();
+            personalAccount.CashAccount = new CashAccount();
+            personalAccount.HistoricalCommisions = new Commisions();
+            accountRepository.Insert(personalAccount);
+            //var result = accountRepository.GetById(1);
+            // (x=>x.AccountType==AccountType.Main);//(personalAccount);
+            //unitOfWork.Save();
             IEnumerable<Book> books = bookRepository.Table.ToList();
+            unitOfWork.Dispose();
             return View(books);
         }
 
