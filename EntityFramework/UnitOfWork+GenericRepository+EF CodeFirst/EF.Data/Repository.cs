@@ -4,6 +4,7 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using EF.Core;
 using System.Linq.Expressions;
+using System.Data;
 
 namespace EF.Data
 {
@@ -66,7 +67,7 @@ namespace EF.Data
                     throw new ArgumentNullException("entity");
                 }
                 this.Entities.Add(entity);
-                this.context.SaveChanges();
+                context.Entry(entity).State = EntityState.Added;
             }
             catch (DbEntityValidationException dbEx)
             {               
@@ -90,7 +91,8 @@ namespace EF.Data
                 {
                     throw new ArgumentNullException("entity");
                 }
-                this.context.SaveChanges();
+                entities.Attach(entity);
+                context.Entry(entity).State = EntityState.Modified;
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -113,8 +115,12 @@ namespace EF.Data
                 {
                     throw new ArgumentNullException("entity");
                 }
-                this.Entities.Remove(entity);
-                this.context.SaveChanges();
+                if (context.Entry(entity).State == EntityState.Detached)
+                {
+                    entities.Attach(entity);
+                }
+                entities.Remove(entity);
+
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -127,6 +133,12 @@ namespace EF.Data
                 }
                 throw new Exception(errorMessage, dbEx);                
             }
+        }
+
+        public virtual void Delete(object id)
+        {
+            var entityToDelete = entities.Find(id);
+            Delete(entityToDelete);
         }
 
         public virtual IQueryable<T> Table

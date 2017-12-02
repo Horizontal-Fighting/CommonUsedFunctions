@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using EF.Core;
+using System.Web;
+using System.Linq;
+using System.Data;
+using System.Threading.Tasks;
 
 namespace EF.Data
 {
@@ -26,9 +30,10 @@ namespace EF.Data
            GC.SuppressFinalize(this);
        }
 
-       public void Save()
+       public int Save()
        {
-           context.SaveChanges();
+           AddAuditInfo();
+           return context.SaveChanges();
        }
 
        public virtual void Dispose(bool disposing)
@@ -42,6 +47,36 @@ namespace EF.Data
            }
            disposed = true;
        }
+
+       
+       /// <summary>
+        /// Add和Edit中，朝context中记录Audit信息
+        /// </summary>
+       private void AddAuditInfo()
+        {
+            var query = context.ChangeTracker
+                    .Entries().ToList();
+
+            var entities = context.ChangeTracker
+                    .Entries()
+                    .Where(x => x.Entity is BaseEntity && (x.State == EntityState.Added || x.State == EntityState.Modified));
+
+            var currentUsername = !string.IsNullOrEmpty(System.Web.HttpContext.Current?.User?.Identity?.Name)
+                ? HttpContext.Current.User.Identity.Name
+                : "Anonymous";
+
+            foreach (var entity in entities)
+            {
+                if (entity.State == EntityState.Added)
+                {
+                    ((BaseEntity)entity.Entity).AuditModel.CreatedAt = DateTime.UtcNow;
+                    ((BaseEntity)entity.Entity).AuditModel.CreatedBy = currentUsername;
+                }
+
+                ((BaseEntity)entity.Entity).AuditModel.UpdatedAt = DateTime.UtcNow;
+                ((BaseEntity)entity.Entity).AuditModel.UpdatedBy = currentUsername;
+            }
+        }
 
        public Repository<T> Repository<T>() where T : BaseEntity
        {
