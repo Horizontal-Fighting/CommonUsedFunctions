@@ -81,7 +81,7 @@
             this.tb_url.Size = new System.Drawing.Size(437, 20);
             this.tb_url.TabIndex = 1;
             this.tb_url.Text = "http://www.boc.cn/sourcedb/whpj/enindex.html";
-            this.tb_url.TextChanged += new System.EventHandler(this.tb_url_TextChanged);
+            //this.tb_url.TextChanged += new System.EventHandler(this.tb_url_TextChanged);
             // 
             // label1
             // 
