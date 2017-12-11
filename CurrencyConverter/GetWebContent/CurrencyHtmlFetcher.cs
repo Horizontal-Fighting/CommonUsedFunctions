@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace GetWebContent
 {
@@ -57,7 +58,21 @@ namespace GetWebContent
                 wc.DownloadStringCompleted += Wc_DownloadStringCompleted;
                 wc.DownloadStringAsync(new Uri(_srcHtmlUrl));
             }               
-           
+        }
+
+        public Task<DataTable> FetchCurrencyExchangeRateAsync()
+        {
+            return  Task<DataTable>.Run(() =>
+            {
+                using (WebClient wc = new WebClient())
+                {
+                    wc.Credentials = CredentialCache.DefaultCredentials;
+                    Encoding enc = Encoding.GetEncoding("UTF-8"); // 如果是乱码就改成 UTF-8 / GB2312                                                              
+                    string htmlSrcCode = wc.DownloadString(new Uri(_srcHtmlUrl));
+                    _dataTable = ParseHtmlSrcCodeToRate(htmlSrcCode);
+                    return _dataTable;
+                }
+            });
         }
 
         private void Wc_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)

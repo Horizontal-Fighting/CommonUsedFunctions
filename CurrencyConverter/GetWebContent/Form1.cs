@@ -26,20 +26,24 @@ namespace GetWebContent
         }
 
         CurrencyExchangeRateHtmlFetcher currencyExchangeRateHtmlFetcher;
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {        
             currencyExchangeRateHtmlFetcher = new CurrencyExchangeRateHtmlFetcher();
-            currencyExchangeRateHtmlFetcher.SrcHtmlUrl = tb_url.Text.Trim();
-            currencyExchangeRateHtmlFetcher.CurrencyExchangeFetched += CurrencyExchangeRateHtmlFetcher_CurrencyExchangeFetched;
-            currencyExchangeRateHtmlFetcher.BeginFetchCurrencyExchangeRate();
+            // 方法1 异步方法
+            dataGridView1.DataSource = await currencyExchangeRateHtmlFetcher.FetchCurrencyExchangeRateAsync();
+            
+            // 方法2 事件方法
+            //currencyExchangeRateHtmlFetcher.SrcHtmlUrl = tb_url.Text.Trim();
+            //currencyExchangeRateHtmlFetcher.CurrencyExchangeFetched += CurrencyExchangeRateHtmlFetcher_CurrencyExchangeFetched;
+            //currencyExchangeRateHtmlFetcher.BeginFetchCurrencyExchangeRate();
         }
 
-        private void CurrencyExchangeRateHtmlFetcher_CurrencyExchangeFetched(object sender, EventArgs e)
-        {
-            dataGridView1.DataSource = currencyExchangeRateHtmlFetcher.DataTable;
-            //GetRate(tb_html.Text);
-            MessageBox.Show("OK", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+        //private void CurrencyExchangeRateHtmlFetcher_CurrencyExchangeFetched(object sender, EventArgs e)
+        //{
+        //    dataGridView1.DataSource = currencyExchangeRateHtmlFetcher.DataTable;
+        //    //GetRate(tb_html.Text);
+        //    MessageBox.Show("OK", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //}
 
         #region 提取URL地址
         //    publicstaticvoidMain(string[]args)

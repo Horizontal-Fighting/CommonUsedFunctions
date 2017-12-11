@@ -33,3 +33,4 @@ E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebCo
 E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.exe
 E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.pdb
 E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\HtmlAgilityPack.dll
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.exe.config
