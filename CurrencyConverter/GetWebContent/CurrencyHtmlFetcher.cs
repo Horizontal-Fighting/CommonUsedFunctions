@@ -11,10 +11,10 @@ namespace GetWebContent
     /// <summary>
     /// 使用本类，可以从中国银行获取货币汇率
     /// </summary>
-    public class CurrencyExchangeRateHtmlFetcher
+    public class CurrencyExchangeRateConverter
     {
         DataTable _dataTable;// = new DataTable();
-        private string _srcHtmlUrl,_pageSrcCode;
+        private string _srcHtmlUrl, _pageSrcCode;
         /// <summary>
         /// 数据结果
         /// </summary>
@@ -41,7 +41,7 @@ namespace GetWebContent
 
         public event EventHandler CurrencyExchangeFetched;
 
-        public CurrencyExchangeRateHtmlFetcher()
+        public CurrencyExchangeRateConverter()
         {
             _dataTable = new DataTable();
             SrcHtmlUrl = "http://www.boc.cn/sourcedb/whpj/enindex.html";
@@ -57,12 +57,12 @@ namespace GetWebContent
                                                               //方法三(异步)：
                 wc.DownloadStringCompleted += Wc_DownloadStringCompleted;
                 wc.DownloadStringAsync(new Uri(_srcHtmlUrl));
-            }               
+            }
         }
 
         public Task<DataTable> FetchCurrencyExchangeRateAsync()
         {
-            return  Task<DataTable>.Run(() =>
+            return Task<DataTable>.Run(() =>
             {
                 using (WebClient wc = new WebClient())
                 {
@@ -85,9 +85,8 @@ namespace GetWebContent
         private void ParseSrcHtmlCode()
         {
             _dataTable = ParseHtmlSrcCodeToRate(_pageSrcCode);
-            CurrencyExchangeFetched(this,new EventArgs());
+            CurrencyExchangeFetched(this, new EventArgs());
         }
-
 
         private DataTable ParseHtmlSrcCodeToRate(string strHtml)
         {
@@ -116,7 +115,7 @@ namespace GetWebContent
             HtmlAgilityPack.HtmlNode node = doc.DocumentNode.SelectSingleNode(".//table[tr/th=\"Currency Name\"]");
             if (node == null)
             {
-                throw new Exception ("没有找到有th为Currency Name列的table");
+                throw new Exception("没有找到有th为Currency Name列的table");
             }
             HtmlAgilityPack.HtmlNodeCollection trNodeList = node.SelectNodes("tr[td]");
 

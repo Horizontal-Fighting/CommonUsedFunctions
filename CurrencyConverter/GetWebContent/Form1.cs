@@ -25,10 +25,10 @@ namespace GetWebContent
 
         }
 
-        CurrencyExchangeRateHtmlFetcher currencyExchangeRateHtmlFetcher;
+        CurrencyExchangeRateConverter currencyExchangeRateHtmlFetcher;
         private async void button1_Click(object sender, EventArgs e)
         {        
-            currencyExchangeRateHtmlFetcher = new CurrencyExchangeRateHtmlFetcher();
+            currencyExchangeRateHtmlFetcher = new CurrencyExchangeRateConverter();
             // 方法1 异步方法
             dataGridView1.DataSource = await currencyExchangeRateHtmlFetcher.FetchCurrencyExchangeRateAsync();
             
