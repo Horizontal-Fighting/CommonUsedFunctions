@@ -11,7 +11,6 @@ namespace EF.Data.Mapping
 {
     public class CommisionsMap : EntityTypeConfiguration<Commisions>
     {
-
         public CommisionsMap()
         {
             //主键

@@ -20,5 +20,13 @@ namespace EF.Core.Data
         Organization = 3
     }
 
+    public enum RoleType
+    {
+        Admin = 1,
+        GeneralPartner = 2,
+        LimitedPartner = 3,
+        Public = 4
+    }
+
 
 }

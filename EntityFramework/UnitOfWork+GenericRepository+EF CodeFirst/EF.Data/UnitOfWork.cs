@@ -49,14 +49,11 @@ namespace EF.Data
        }
 
        
-       /// <summary>
+        /// <summary>
         /// Add和Edit中，朝context中记录Audit信息
         /// </summary>
        private void AddAuditInfo()
         {
-            var query = context.ChangeTracker
-                    .Entries().ToList();
-
             var entities = context.ChangeTracker
                     .Entries()
                     .Where(x => x.Entity is BaseEntity && (x.State == EntityState.Added || x.State == EntityState.Modified));

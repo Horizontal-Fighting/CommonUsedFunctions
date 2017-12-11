@@ -1,0 +1,27 @@
+﻿using EF.Core.Data;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.ModelConfiguration;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EF.Data.Mapping
+{
+    public class UserIdentityMap : EntityTypeConfiguration<UserIdentity>
+    {
+        public UserIdentityMap()
+        {
+            //主键
+            HasKey(t => t.Id);
+            Property(t => t.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+
+            //属性名
+            //Roles 存在一对多关系， 外键定义在多方
+
+            //表名
+            ToTable("T_UserIdentity");
+        }
+    }
+}

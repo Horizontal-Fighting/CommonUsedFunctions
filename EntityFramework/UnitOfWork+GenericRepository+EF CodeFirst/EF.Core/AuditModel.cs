@@ -8,7 +8,6 @@ namespace EF.Core
 {
     public class AuditModel
     {
-
         public DateTime? CreatedAt { get; set; }
 
         public string CreatedBy { get; set; }
@@ -16,6 +15,5 @@ namespace EF.Core
         public DateTime? UpdatedAt { get; set; }
 
         public string UpdatedBy { get; set; }
-
     }
 }

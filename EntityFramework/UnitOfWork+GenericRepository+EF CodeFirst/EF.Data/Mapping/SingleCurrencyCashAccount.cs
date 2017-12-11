@@ -15,9 +15,9 @@ namespace EF.Data.Mapping
         {
             //主键
             HasKey(t => t.Id);
+            Property(t => t.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             //属性名
-            Property(t => t.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             Property(t => t.Balance).IsRequired();
 
             // 一对多关系， 外键定义在多方

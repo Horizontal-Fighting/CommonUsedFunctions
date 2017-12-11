@@ -12,10 +12,11 @@ namespace EF.Data
     public class EFDbContext : DbContext
     {
        public EFDbContext()
-           : base("name=DbConnectionString")
+            : base("name=DbConnectionString")
        {
-            Database.SetInitializer(new EFDbInitializer());
-        }
+           Database.SetInitializer(new EFDbInitializer());
+       }
+
 
        public new IDbSet<TEntity> Set<TEntity>() where TEntity : BaseEntity
        {
@@ -35,7 +36,7 @@ namespace EF.Data
                modelBuilder.Configurations.Add(configurationInstance);
            }
            base.OnModelCreating(modelBuilder);
-       }
+        }
     }
 
 

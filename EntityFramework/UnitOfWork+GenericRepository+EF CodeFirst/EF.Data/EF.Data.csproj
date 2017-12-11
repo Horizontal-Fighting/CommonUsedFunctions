@@ -55,6 +55,7 @@
     <Compile Include="Mapping\CommisionMap.cs" />
     <Compile Include="Mapping\MarginAccountMap.cs" />
     <Compile Include="Mapping\SingleCurrencyCashAccount.cs" />
+    <Compile Include="Mapping\UserIdentityMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="Enums\State.cs" />

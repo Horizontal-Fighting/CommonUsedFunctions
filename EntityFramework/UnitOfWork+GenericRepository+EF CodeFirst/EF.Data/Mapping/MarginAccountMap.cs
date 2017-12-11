@@ -19,7 +19,6 @@ namespace EF.Data.Mapping
 
             //属性名
 
-
             //表名
             ToTable("T_MarginAccount");
         }

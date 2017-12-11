@@ -53,7 +53,9 @@
     <Compile Include="Data\Commisions.cs" />
     <Compile Include="Data\Enums.cs" />
     <Compile Include="Data\MarginAccount.cs" />
+    <Compile Include="Data\RoleType.cs" />
     <Compile Include="Data\SingleCurrencyCashAccount.cs" />
+    <Compile Include="Data\UserIdentity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
