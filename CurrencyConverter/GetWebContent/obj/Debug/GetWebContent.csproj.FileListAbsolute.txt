@@ -24,3 +24,12 @@ C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.csprojReso
 C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.Form1.resources
 C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.Properties.Resources.resources
 C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.csproj.GenerateResource.Cache
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.exe
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.pdb
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.Form1.resources
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.Properties.Resources.resources
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.csproj.GenerateResource.Cache
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.exe
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.pdb
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\HtmlAgilityPack.dll
