@@ -1,0 +1,36 @@
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\bin\Debug\GetWebContent.exe
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\bin\Debug\GetWebContent.pdb
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\obj\Debug\ResolveAssemblyReference.cache
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\obj\Debug\GetWebContent.Form1.resources
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\obj\Debug\GetWebContent.Properties.Resources.resources
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\obj\Debug\GetWebContent.csproj.GenerateResource.Cache
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\obj\Debug\GetWebContent.exe
+F:\workspace\GetWebContent\GetWebContent\GetWebContent\obj\Debug\GetWebContent.pdb
+E:\ExchangeRate\GetWebContent\GetWebContent\obj\Debug\GetWebContent.exe
+E:\ExchangeRate\GetWebContent\GetWebContent\obj\Debug\GetWebContent.pdb
+E:\ExchangeRate\GetWebContent\GetWebContent\bin\Debug\GetWebContent.exe
+E:\ExchangeRate\GetWebContent\GetWebContent\bin\Debug\GetWebContent.pdb
+E:\ExchangeRate\GetWebContent\GetWebContent\obj\Debug\ResolveAssemblyReference.cache
+E:\ExchangeRate\GetWebContent\GetWebContent\obj\Debug\GetWebContent.Form1.resources
+E:\ExchangeRate\GetWebContent\GetWebContent\obj\Debug\GetWebContent.Properties.Resources.resources
+E:\ExchangeRate\GetWebContent\GetWebContent\obj\Debug\GetWebContent.csproj.GenerateResource.Cache
+E:\ExchangeRate\GetWebContent\GetWebContent\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.exe
+C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.pdb
+C:\Users\Rex\Desktop\New folder\GetWebContent\bin\Debug\GetWebContent.exe
+C:\Users\Rex\Desktop\New folder\GetWebContent\bin\Debug\GetWebContent.pdb
+C:\Users\Rex\Desktop\New folder\GetWebContent\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.csprojResolveAssemblyReference.cache
+C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.Form1.resources
+C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.Properties.Resources.resources
+C:\Users\Rex\Desktop\New folder\GetWebContent\obj\Debug\GetWebContent.csproj.GenerateResource.Cache
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.exe
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.pdb
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.Form1.resources
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.Properties.Resources.resources
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\obj\Debug\GetWebContent.csproj.GenerateResource.Cache
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.exe
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.pdb
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\HtmlAgilityPack.dll
+E:\GitHub\CommonUsedFunctions\CurrencyConverter\GetWebContent\bin\Debug\GetWebContent.exe.config

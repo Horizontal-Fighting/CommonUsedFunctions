@@ -1,0 +1,19 @@
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\bin\Debug\EF.Data.dll.config
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\bin\Debug\EF.Data.dll
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\bin\Debug\EF.Data.pdb
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\bin\Debug\EF.Core.dll
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\bin\Debug\EF.Core.pdb
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\bin\Debug\EntityFramework.xml
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\obj\Debug\EF.Data.csprojResolveAssemblyReference.cache
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\obj\Debug\EF.Data.dll
+C:\Users\Rex\Desktop\GenericRepository\EF.Data\obj\Debug\EF.Data.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EF.Data.dll.config
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EF.Data.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EF.Data.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EF.Core.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EntityFramework.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EF.Core.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\bin\Debug\EntityFramework.xml
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.pdb
