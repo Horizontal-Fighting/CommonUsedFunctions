@@ -45,6 +45,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ClearScript, Version=5.4.9.0, Culture=neutral, PublicKeyToken=935d0c957da47c73, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.4.2\lib\net45\ClearScript.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JavaScriptEngineSwitcher.ChakraCore, Version=2.4.8.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.ChakraCore.2.4.8\lib\net45\JavaScriptEngineSwitcher.ChakraCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JavaScriptEngineSwitcher.Core, Version=2.4.9.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.Core.2.4.9\lib\net45\JavaScriptEngineSwitcher.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JavaScriptEngineSwitcher.Msie, Version=2.4.9.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.Msie.2.4.9\lib\net45\JavaScriptEngineSwitcher.Msie.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JavaScriptEngineSwitcher.V8, Version=2.4.2.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.4.2\lib\net45\JavaScriptEngineSwitcher.V8.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JSPool, Version=3.0.1.0, Culture=neutral, PublicKeyToken=2fc7775f73072640, processorArchitecture=MSIL">
+      <HintPath>..\packages\JSPool.3.0.1\lib\net451\JSPool.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -78,6 +102,27 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MsieJavaScriptEngine, Version=2.2.2.0, Culture=neutral, PublicKeyToken=a3a2846a37ac0d3e, processorArchitecture=MSIL">
+      <HintPath>..\packages\MsieJavaScriptEngine.2.2.2\lib\net45\MsieJavaScriptEngine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="React.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
+      <HintPath>..\packages\React.Core.3.2.0\lib\net40\React.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="React.Web, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
+      <HintPath>..\packages\React.Web.3.2.0\lib\net40\React.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="React.Web.Mvc4, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
+      <HintPath>..\packages\React.Web.Mvc4.3.2.0\lib\net40\React.Web.Mvc4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -94,6 +139,14 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="VroomJs, Version=1.2.3.0, Culture=neutral, PublicKeyToken=e7c52e67fcb0044f, processorArchitecture=MSIL">
+      <HintPath>..\packages\VroomJs.1.2.3\lib\net45\VroomJs.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -119,27 +172,127 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\gijgo\combined\gijgo.css" />
+    <Content Include="Content\gijgo\combined\gijgo.min.css" />
+    <Content Include="Content\gijgo\modular\checkbox.css" />
+    <Content Include="Content\gijgo\modular\checkbox.min.css" />
+    <Content Include="Content\gijgo\modular\core.css" />
+    <Content Include="Content\gijgo\modular\core.min.css" />
+    <Content Include="Content\gijgo\modular\datepicker.css" />
+    <Content Include="Content\gijgo\modular\datepicker.min.css" />
+    <Content Include="Content\gijgo\modular\dialog.css" />
+    <Content Include="Content\gijgo\modular\dialog.min.css" />
+    <Content Include="Content\gijgo\modular\dropdown.css" />
+    <Content Include="Content\gijgo\modular\dropdown.min.css" />
+    <Content Include="Content\gijgo\modular\editor.css" />
+    <Content Include="Content\gijgo\modular\editor.min.css" />
+    <Content Include="Content\gijgo\modular\grid.css" />
+    <Content Include="Content\gijgo\modular\grid.min.css" />
+    <Content Include="Content\gijgo\modular\tree.css" />
+    <Content Include="Content\gijgo\modular\tree.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\treeview\checkbox.css" />
+    <Content Include="Content\treeview\checkbox.min.css" />
+    <Content Include="Content\treeview\core.css" />
+    <Content Include="Content\treeview\core.min.css" />
+    <Content Include="Content\treeview\tree.css" />
+    <Content Include="Content\treeview\tree.min.css" />
+    <Content Include="Examples\bootstrap-treeview-checkbox.html" />
+    <Content Include="Examples\TreeViewTest.html" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\bootstrap.bundle.js" />
+    <Content Include="scripts\bootstrap.bundle.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <None Include="scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="scripts\jquery-1.10.2.js" />
-    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\esm\popper-utils.js" />
+    <Content Include="scripts\esm\popper-utils.min.js" />
+    <Content Include="scripts\esm\popper.js" />
+    <Content Include="scripts\esm\popper.min.js" />
+    <Content Include="scripts\esm\popper.min.js.map" />
+    <Content Include="scripts\esm\popper.js.map" />
+    <Content Include="scripts\esm\popper-utils.min.js.map" />
+    <Content Include="scripts\esm\popper-utils.js.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="scripts\jquery-3.0.0-vsdoc.js" />
+    <Content Include="scripts\gijgo\combined\gijgo.js" />
+    <Content Include="scripts\gijgo\combined\gijgo.min.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.bg-bg.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.bg-bg.min.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.de-de.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.de-de.min.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.fr-fr.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.fr-fr.min.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.pt-br.js" />
+    <Content Include="scripts\gijgo\combined\messages\messages.pt-br.min.js" />
+    <Content Include="scripts\gijgo\modular\checkbox.js" />
+    <Content Include="scripts\gijgo\modular\checkbox.min.js" />
+    <Content Include="scripts\gijgo\modular\core.js" />
+    <Content Include="scripts\gijgo\modular\core.min.js" />
+    <Content Include="scripts\gijgo\modular\datepicker.js" />
+    <Content Include="scripts\gijgo\modular\datepicker.min.js" />
+    <Content Include="scripts\gijgo\modular\dialog.js" />
+    <Content Include="scripts\gijgo\modular\dialog.min.js" />
+    <Content Include="scripts\gijgo\modular\draggable.js" />
+    <Content Include="scripts\gijgo\modular\draggable.min.js" />
+    <Content Include="scripts\gijgo\modular\dropdown.js" />
+    <Content Include="scripts\gijgo\modular\dropdown.min.js" />
+    <Content Include="scripts\gijgo\modular\droppable.js" />
+    <Content Include="scripts\gijgo\modular\droppable.min.js" />
+    <Content Include="scripts\gijgo\modular\editor.js" />
+    <Content Include="scripts\gijgo\modular\editor.min.js" />
+    <Content Include="scripts\gijgo\modular\grid.js" />
+    <Content Include="scripts\gijgo\modular\grid.min.js" />
+    <Content Include="scripts\gijgo\modular\tree.js" />
+    <Content Include="scripts\gijgo\modular\tree.min.js" />
+    <Content Include="scripts\jquery-3.0.0.js" />
+    <Content Include="scripts\jquery-3.0.0.min.js" />
+    <Content Include="scripts\jquery-3.0.0.slim.js" />
+    <Content Include="scripts\jquery-3.0.0.slim.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="scripts\popper-utils.js" />
+    <Content Include="scripts\popper-utils.min.js" />
+    <Content Include="scripts\popper.js" />
+    <Content Include="scripts\popper.min.js" />
+    <Content Include="scripts\TreeViewTest.jsx" />
+    <Content Include="scripts\treeview\checkbox.js" />
+    <Content Include="scripts\treeview\checkbox.min.js" />
+    <Content Include="scripts\treeview\core.js" />
+    <Content Include="scripts\treeview\core.min.js" />
+    <Content Include="scripts\treeview\draggable.js" />
+    <Content Include="scripts\treeview\draggable.min.js" />
+    <Content Include="scripts\treeview\droppable.js" />
+    <Content Include="scripts\treeview\droppable.min.js" />
+    <Content Include="scripts\treeview\tree.js" />
+    <Content Include="scripts\treeview\tree.min.js" />
+    <Content Include="scripts\umd\popper-utils.js" />
+    <Content Include="scripts\umd\popper-utils.min.js" />
+    <Content Include="scripts\umd\popper.js" />
+    <Content Include="scripts\umd\popper.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\ReactConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LocationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CommentModel.cs" />
+    <Compile Include="Models\Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -151,10 +304,16 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="scripts\jquery-3.0.0.min.map" />
+    <Content Include="scripts\umd\popper.min.js.map" />
+    <Content Include="scripts\umd\popper.js.map" />
+    <Content Include="scripts\umd\popper-utils.min.js.map" />
+    <Content Include="scripts\umd\popper-utils.js.map" />
+    <Content Include="scripts\popper.min.js.map" />
+    <Content Include="scripts\popper.js.map" />
+    <Content Include="scripts\popper-utils.min.js.map" />
+    <Content Include="scripts\popper-utils.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -164,13 +323,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Location\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\Tutorial.jsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="scripts\index.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
