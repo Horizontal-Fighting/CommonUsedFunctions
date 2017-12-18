@@ -331,9 +331,6 @@
   <ItemGroup>
     <Content Include="scripts\Tutorial.jsx" />
   </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="scripts\index.d.ts" />
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
