@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace YieldCalculator
 {
-    public class XirrCalculator
+    public class XirrCalculatorUtility
     {
         public const double tol = 0.001;
         public delegate double fx(double x);
@@ -85,8 +85,8 @@ namespace YieldCalculator
             }
 
             return Xirr(0.1,
-                                XirrCalculator.total_f_xirr(paymentList.ToArray(), dayList.ToArray()),
-                                XirrCalculator.total_df_xirr(paymentList.ToArray(), dayList.ToArray()));
+                                XirrCalculatorUtility.total_f_xirr(paymentList.ToArray(), dayList.ToArray()),
+                                XirrCalculatorUtility.total_df_xirr(paymentList.ToArray(), dayList.ToArray()));
 
         }
 

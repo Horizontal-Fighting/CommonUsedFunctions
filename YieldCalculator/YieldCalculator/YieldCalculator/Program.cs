@@ -13,6 +13,7 @@ namespace YieldCalculator
 
             ////入金为负值，出金为正值
             //double[] payments = { -6800, 1000, 2000, 4000 }; // payments
+            // 以第一天为起始点的天数;
             //double[] days = { 01, 08, 16, 25 }; // days of payment (as day of year)
             //double xirr = XirrCalculator.Newtons_method(0.1,
             //                             XirrCalculator.total_f_xirr(payments, days),
@@ -41,7 +42,7 @@ namespace YieldCalculator
                 }
             };
 
-            double xirr = XirrCalculator.Xirr(transactionModelList);
+            double xirr = XirrCalculatorUtility.Xirr(transactionModelList);
 
 
             Console.WriteLine("XIRR value is {0}", xirr);
