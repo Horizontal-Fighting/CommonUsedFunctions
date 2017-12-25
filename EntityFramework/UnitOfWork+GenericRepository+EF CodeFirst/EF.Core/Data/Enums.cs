@@ -9,8 +9,8 @@ namespace EF.Core.Data
     public enum CurrencyType
     {
         USD = 1,
-        HDK = 2,
-        RMB = 3
+        HKD = 2,
+        CNY = 3
     }
 
     public enum AccountType

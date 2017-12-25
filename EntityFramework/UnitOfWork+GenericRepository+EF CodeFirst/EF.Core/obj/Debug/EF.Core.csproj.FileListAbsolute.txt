@@ -10,3 +10,4 @@ E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF Co
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\bin\Debug\EntityFramework.xml
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\obj\Debug\EF.Core.dll
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\obj\Debug\EF.Core.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\obj\Debug\EF.Core.csprojResolveAssemblyReference.cache

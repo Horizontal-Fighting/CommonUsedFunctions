@@ -1,0 +1,6 @@
+E:\GitHub\CommonUsedFunctions\YieldCalculator\YieldCalculator\YieldCalculator\bin\Debug\YieldCalculator.exe.config
+E:\GitHub\CommonUsedFunctions\YieldCalculator\YieldCalculator\YieldCalculator\bin\Debug\YieldCalculator.exe
+E:\GitHub\CommonUsedFunctions\YieldCalculator\YieldCalculator\YieldCalculator\bin\Debug\YieldCalculator.pdb
+E:\GitHub\CommonUsedFunctions\YieldCalculator\YieldCalculator\YieldCalculator\obj\Debug\YieldCalculator.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\YieldCalculator\YieldCalculator\YieldCalculator\obj\Debug\YieldCalculator.exe
+E:\GitHub\CommonUsedFunctions\YieldCalculator\YieldCalculator\YieldCalculator\obj\Debug\YieldCalculator.pdb

@@ -49,8 +49,8 @@ namespace EF.Data
             CashAccount cashAccount = new CashAccount();
             var singleCurrencyCashAccounts = new List<SingleCurrencyCashAccount>();
             singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.USD, CashAccount = cashAccount });
-            singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.HDK, CashAccount = cashAccount });
-            singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.RMB, CashAccount = cashAccount });
+            singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.HKD, CashAccount = cashAccount });
+            singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.CNY, CashAccount = cashAccount });
             cashAccount.SingleCurrencyCashAccounts = singleCurrencyCashAccounts;
 
             MarginAccount marginAccount = new MarginAccount();
