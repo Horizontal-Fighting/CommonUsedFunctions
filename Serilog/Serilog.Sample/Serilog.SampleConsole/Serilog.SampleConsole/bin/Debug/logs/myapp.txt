@@ -1,5 +1,0 @@
-2018-01-05 21:22:57.288 -05:00 [Information] Hello, world!
-2018-01-05 21:22:57.320 -05:00 [Debug] Dividing 10 by 0
-2018-01-05 21:22:57.385 -05:00 [Error] Something went wrong
-System.DivideByZeroException: Attempted to divide by zero.
-   at Serilog.SampleConsole.Program.Main(String[] args) in E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\Program.cs:line 25

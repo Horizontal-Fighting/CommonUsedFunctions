@@ -13,7 +13,8 @@ namespace Serilog.SampleConsole
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
                 .WriteTo.Console()
-                .WriteTo.File("logs\\myapp.txt")
+                //每天会形成一个文件，{Hour}是每小时；{HalfHour}是每半小时;
+                .WriteTo.RollingFile("Logs\\log-{Date}.txt")
                 .CreateLogger();
 
             Log.Information("Hello, world!");
