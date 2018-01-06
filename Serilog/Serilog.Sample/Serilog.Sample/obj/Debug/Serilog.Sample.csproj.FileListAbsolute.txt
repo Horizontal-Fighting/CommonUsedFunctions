@@ -1,1 +1,0 @@
-E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.Sample\bin\Debug\Serilog.Sample.exe.config

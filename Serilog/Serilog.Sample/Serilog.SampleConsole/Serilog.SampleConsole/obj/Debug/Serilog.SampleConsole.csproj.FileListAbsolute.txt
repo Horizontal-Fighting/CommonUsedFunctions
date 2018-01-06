@@ -1,0 +1,16 @@
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.SampleConsole.exe.config
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\obj\Debug\Serilog.SampleConsole.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.SampleConsole.exe
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.SampleConsole.pdb
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.dll
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.Console.dll
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.File.dll
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.Literate.dll
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.RollingFile.dll
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.xml
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.Console.xml
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.File.xml
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.Literate.xml
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\bin\Debug\Serilog.Sinks.RollingFile.xml
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\obj\Debug\Serilog.SampleConsole.exe
+E:\GitHub\CommonUsedFunctions\Serilog\Serilog.Sample\Serilog.SampleConsole\Serilog.SampleConsole\obj\Debug\Serilog.SampleConsole.pdb

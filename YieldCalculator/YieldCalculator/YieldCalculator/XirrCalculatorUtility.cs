@@ -81,6 +81,7 @@ namespace YieldCalculator
                 else
                     paymentList.Add((double)tmpTransaction.TransactionAmountUSD);
 
+                //Days是int; TotalDays是double
                 dayList.Add((tmpTransaction.TransactionDateUtc-firstTransaction.TransactionDateUtc).Days);
             }
 

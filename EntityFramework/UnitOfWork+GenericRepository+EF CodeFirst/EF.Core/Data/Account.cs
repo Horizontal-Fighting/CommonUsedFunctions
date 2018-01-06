@@ -43,5 +43,7 @@ namespace EF.Core.Data
         {
             base.AccountType = AccountType.Personal;
         }
+
+        public String Note { get; set; }
     }
 }

@@ -23,7 +23,7 @@ namespace YieldCalculator
                 new TransactionModel() {
                     TransactionAmountUSD=6800,
                     TransactionType=TransactionType.Deposit,
-                    TransactionDateUtc=new DateTime(2017,1,1)
+                    TransactionDateUtc=new DateTime(2016,1,1)
                 },
                 new TransactionModel() {
                     TransactionAmountUSD = 1000,
@@ -41,6 +41,8 @@ namespace YieldCalculator
                     TransactionDateUtc=new DateTime(2017,4,1)
                 }
             };
+
+
 
             double xirr = XirrCalculatorUtility.Xirr(transactionModelList);
 

@@ -17,3 +17,6 @@ E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF Co
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.csprojResolveAssemblyReference.cache
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.dll
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.Migrations.InitialCreate.resources
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.csproj.GenerateResource.Cache
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Data\obj\Debug\EF.Data.Migrations.PersonalAccountNote.resources

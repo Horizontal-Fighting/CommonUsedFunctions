@@ -6,6 +6,7 @@ using System.Reflection;
 using EF.Core;
 using EF.Core.Data;
 using System.Collections.Generic;
+using EF.Data.Migrations;
 
 namespace EF.Data
 {
@@ -14,7 +15,8 @@ namespace EF.Data
        public EFDbContext()
             : base("name=DbConnectionString")
        {
-           Database.SetInitializer(new EFDbInitializer());
+            //Database.SetInitializer(new EFDbInitializer());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<EFDbContext, Configuration>("DbConnectionString"));
        }
 
 
@@ -41,7 +43,7 @@ namespace EF.Data
 
 
 
-    public class EFDbInitializer : DropCreateDatabaseAlways<EFDbContext>
+    public class EFDbInitializer : DropCreateDatabaseIfModelChanges<EFDbContext>
     {
         protected override void Seed(EFDbContext context)
         {
@@ -49,7 +51,7 @@ namespace EF.Data
             CashAccount cashAccount = new CashAccount();
             var singleCurrencyCashAccounts = new List<SingleCurrencyCashAccount>();
             singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.USD, CashAccount = cashAccount });
-            singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.HKD, CashAccount = cashAccount });
+            singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 1000m, CurrencyType = CurrencyType.HKD, CashAccount = cashAccount });
             singleCurrencyCashAccounts.Add(new SingleCurrencyCashAccount() { Balance = 0, CurrencyType = CurrencyType.CNY, CashAccount = cashAccount });
             cashAccount.SingleCurrencyCashAccounts = singleCurrencyCashAccounts;
 

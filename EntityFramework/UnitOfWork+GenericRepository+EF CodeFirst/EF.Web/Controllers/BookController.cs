@@ -17,16 +17,22 @@ namespace EF.Web.Controllers
         {
             using (UnitOfWork unitOfWork = new UnitOfWork())
             {
-                var accountRepository = unitOfWork.Repository<Account>();
-                var bookRepository = unitOfWork.Repository<Book>();
-                Account personalAccount = new PersonalAccount();
-                personalAccount.CashAccount = new CashAccount();
-                personalAccount.HistoricalCommisions = new Commisions();
-                accountRepository.Insert(personalAccount);
+                //var accountRepository = unitOfWork.Repository<Account>();
+
+                //PersonalAccount personalAccount = new PersonalAccount();
+                //personalAccount.CashAccount = new CashAccount();
+                //unitOfWork.Repository<PersonalAccount>().Insert(personalAccount);
+                //unitOfWork.Save();
+
+                //var mainAccount = unitOfWork
+                    //.Repository<MainAccount>()
+                    //.Get(null,null, "CashAccount,CashAccount.SingleCurrencyCashAccounts")
+                    //.FirstOrDefault();
 
                 //var result = accountRepository.GetById(1);
                 // (x=>x.AccountType==AccountType.Main);//(personalAccount);
-                unitOfWork.Save();
+                
+                var bookRepository = unitOfWork.Repository<Book>();
                 IEnumerable<Book> books = bookRepository.Table.ToList();
                 return View(books);
             }

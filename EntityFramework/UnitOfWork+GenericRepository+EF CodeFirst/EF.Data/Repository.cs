@@ -45,7 +45,7 @@ namespace EF.Data
         }
 
         /// <summary>
-        ///     Generic method to fetch all the records from db
+        /// Generic method to fetch all the records from db
         /// </summary>
         /// <returns></returns>
         public virtual IQueryable<T> GetAll()
