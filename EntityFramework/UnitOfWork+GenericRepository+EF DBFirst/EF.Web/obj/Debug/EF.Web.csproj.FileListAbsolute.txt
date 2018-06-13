@@ -129,3 +129,5 @@ E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DB
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Web\obj\Debug\EF.Web.pdb
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Web\bin\EF.Model.dll
 E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Web\bin\EF.Model.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Web\bin\EntityFramework.SqlServer.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Web\bin\EntityFramework.SqlServer.xml

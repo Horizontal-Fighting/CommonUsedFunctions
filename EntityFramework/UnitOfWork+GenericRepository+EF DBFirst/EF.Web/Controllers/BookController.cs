@@ -32,7 +32,8 @@ namespace EF.Web.Controllers
                 //var result = accountRepository.GetById(1);
                 // (x=>x.AccountType==AccountType.Main);//(personalAccount);
 
-                var bookRepository = unitOfWork.Repository<T_Book>();
+                var bookRepository = unitOfWork.Repository<T_Book>().GetAll().ToList() ;
+                // convert using automapper
                 IEnumerable<Book> books = null;// = bookRepository.Table.ToList();
                 return View(books);
             }

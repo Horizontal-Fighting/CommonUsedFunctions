@@ -11,11 +11,14 @@ namespace EF.Data
 {
    public class UnitOfWork : IDisposable
     {
-       private readonly EFTestEntities context;
-       private bool disposed;
-       private Dictionary<string,object> repositories;
+        #region variables
+        private readonly EFTestEntities context;
+        private bool disposed;
+        private Dictionary<string,object> repositories;
+        #endregion
 
-       public UnitOfWork(EFTestEntities context)
+        #region Constructors/Destructors
+        public UnitOfWork(EFTestEntities context)
        {
            this.context = context;
        }
@@ -30,30 +33,30 @@ namespace EF.Data
            Dispose(true);
            GC.SuppressFinalize(this);
        }
+        public virtual void Dispose(bool disposing)
+        {
+            if (!disposed)
+            {
+                if (disposing)
+                {
+                    context.Dispose();
+                }
+            }
+            disposed = true;
+        }
+        #endregion
 
-       public int Save()
+        #region Context
+        public int Save()
        {
            AddAuditInfo();
            return context.SaveChanges();
        }
 
-       public virtual void Dispose(bool disposing)
-       {
-           if (!disposed)
-           {
-               if (disposing)
-               {
-                   context.Dispose();
-               }
-           }
-           disposed = true;
-       }
-
-       
         /// <summary>
         /// Add和Edit中，朝context中记录Audit信息
         /// </summary>
-       private void AddAuditInfo()
+        private void AddAuditInfo()
         {
             var entities = context.ChangeTracker
                     .Entries()
@@ -76,7 +79,7 @@ namespace EF.Data
             }
         }
 
-       public Repository<T> Repository<T>() where T : class
+        public Repository<T> Repository<T>() where T : class
        {
            if (repositories == null)
            {
@@ -93,5 +96,7 @@ namespace EF.Data
            }
            return (Repository<T>)repositories[type];
        }
+        #endregion
+
     }
 }

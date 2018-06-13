@@ -4,12 +4,12 @@
     <EntitySetMapping Name="T_Book">
       <EntityTypeMapping TypeName="EFTestModel.T_Book">
         <MappingFragment StoreEntitySet="T_Book">
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Author" ColumnName="Author" />
-          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
-          <ScalarProperty Name="Published" ColumnName="Published" />
-          <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
