@@ -1,0 +1,4 @@
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Service.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Service.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\obj\Debug\EF.Service.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\obj\Debug\EF.Service.pdb

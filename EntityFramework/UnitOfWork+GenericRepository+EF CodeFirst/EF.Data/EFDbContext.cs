@@ -6,7 +6,7 @@ using System.Reflection;
 using EF.Core;
 using EF.Core.Data;
 using System.Collections.Generic;
-using EF.Data.Migrations;
+
 
 namespace EF.Data
 {
@@ -15,8 +15,8 @@ namespace EF.Data
        public EFDbContext()
             : base("name=DbConnectionString")
        {
-            //Database.SetInitializer(new EFDbInitializer());
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<EFDbContext, Configuration>("DbConnectionString"));
+            Database.SetInitializer(new EFDbInitializer());
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<EFDbContext, Configuration>("DbConnectionString"));
        }
 
 

@@ -1,0 +1,21 @@
+C:\Users\Rex\Desktop\GenericRepository\EF.Core\bin\Debug\EF.Core.dll
+C:\Users\Rex\Desktop\GenericRepository\EF.Core\bin\Debug\EF.Core.pdb
+C:\Users\Rex\Desktop\GenericRepository\EF.Core\obj\Debug\EF.Core.csprojResolveAssemblyReference.cache
+C:\Users\Rex\Desktop\GenericRepository\EF.Core\obj\Debug\EF.Core.dll
+C:\Users\Rex\Desktop\GenericRepository\EF.Core\obj\Debug\EF.Core.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\bin\Debug\EF.Core.dll.config
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\bin\Debug\EF.Core.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\bin\Debug\EF.Core.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\bin\Debug\EntityFramework.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\bin\Debug\EntityFramework.xml
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\obj\Debug\EF.Core.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\obj\Debug\EF.Core.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF CodeFirst\EF.Core\obj\Debug\EF.Core.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\bin\Debug\EF.Core.dll.config
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\bin\Debug\EF.Core.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\bin\Debug\EF.Core.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\bin\Debug\EntityFramework.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\bin\Debug\EntityFramework.xml
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\obj\Debug\EF.Core.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\obj\Debug\EF.Core.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Core\obj\Debug\EF.Core.pdb
