@@ -10,5 +10,6 @@ namespace EF.Model
        public DateTime Published { get; set; }
        public decimal Price { get; set; }
        public string Remark { get; set; }
+       public CurrencyType CurrencyType { get; set; }
     }
 }

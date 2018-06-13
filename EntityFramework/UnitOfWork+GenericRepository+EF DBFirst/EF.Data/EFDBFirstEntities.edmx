@@ -15,9 +15,18 @@
           <Property Name="Published" Type="datetime" />
           <Property Name="Price" Type="money" />
           <Property Name="Remark" Type="nvarchar" MaxLength="50" />
+          <Property Name="CurrencyTypeID" Type="int" />
+        </EntityType>
+        <EntityType Name="T_CurrencyType">
+          <Key>
+            <PropertyRef Name="CurrencyTypeID" />
+          </Key>
+          <Property Name="CurrencyTypeID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="10" />
         </EntityType>
         <EntityContainer Name="EFTestModelStoreContainer">
           <EntitySet Name="T_Book" EntityType="Self.T_Book" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="T_CurrencyType" EntityType="Self.T_CurrencyType" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -25,6 +34,7 @@
       <Schema Namespace="EFTestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="EFTestEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="T_Book" EntityType="EFTestModel.T_Book" />
+          <EntitySet Name="T_CurrencyType" EntityType="EFTestModel.T_CurrencyType" />
         </EntityContainer>
         <EntityType Name="T_Book">
           <Key>
@@ -36,6 +46,14 @@
           <Property Name="Published" Type="DateTime" Precision="3" />
           <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
           <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencyTypeID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="T_CurrencyType">
+          <Key>
+            <PropertyRef Name="CurrencyTypeID" />
+          </Key>
+          <Property Name="CurrencyTypeID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -46,12 +64,21 @@
           <EntitySetMapping Name="T_Book">
             <EntityTypeMapping TypeName="EFTestModel.T_Book">
               <MappingFragment StoreEntitySet="T_Book">
+                <ScalarProperty Name="CurrencyTypeID" ColumnName="CurrencyTypeID" />
                 <ScalarProperty Name="Remark" ColumnName="Remark" />
                 <ScalarProperty Name="Price" ColumnName="Price" />
                 <ScalarProperty Name="Published" ColumnName="Published" />
                 <ScalarProperty Name="ISBN" ColumnName="ISBN" />
                 <ScalarProperty Name="Author" ColumnName="Author" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_CurrencyType">
+            <EntityTypeMapping TypeName="EFTestModel.T_CurrencyType">
+              <MappingFragment StoreEntitySet="T_CurrencyType">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CurrencyTypeID" ColumnName="CurrencyTypeID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

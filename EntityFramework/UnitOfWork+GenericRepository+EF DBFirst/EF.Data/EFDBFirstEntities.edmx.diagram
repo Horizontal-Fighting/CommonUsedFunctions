@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="e9b83f6c823c4ffc8dd7fb217208d77a" Name="Diagram1">
         <EntityTypeShape EntityType="EFTestModel.T_Book" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="EFTestModel.T_CurrencyType" Width="1.5" PointX="2.75" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -20,5 +20,6 @@ namespace EF.Data
         public Nullable<System.DateTime> Published { get; set; }
         public Nullable<decimal> Price { get; set; }
         public string Remark { get; set; }
+        public Nullable<int> CurrencyTypeID { get; set; }
     }
 }

@@ -10,8 +10,17 @@
     <Property Name="Published" Type="datetime" />
     <Property Name="Price" Type="money" />
     <Property Name="Remark" Type="nvarchar" MaxLength="50" />
+    <Property Name="CurrencyTypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="T_CurrencyType">
+    <Key>
+      <PropertyRef Name="CurrencyTypeID" />
+    </Key>
+    <Property Name="CurrencyTypeID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="10" />
   </EntityType>
   <EntityContainer Name="EFTestModelStoreContainer">
     <EntitySet Name="T_Book" EntityType="Self.T_Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_CurrencyType" EntityType="Self.T_CurrencyType" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

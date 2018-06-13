@@ -77,6 +77,9 @@
     <Compile Include="T_Book.cs">
       <DependentUpon>EFDBFirstEntities.tt</DependentUpon>
     </Compile>
+    <Compile Include="T_CurrencyType.cs">
+      <DependentUpon>EFDBFirstEntities.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

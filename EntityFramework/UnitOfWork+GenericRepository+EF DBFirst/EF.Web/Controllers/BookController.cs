@@ -3,38 +3,52 @@ using System.Linq;
 using System.Web.Mvc;
 using EF.Data;
 using EF.Model;
+using EF.Service;
+using System;
 
 namespace EF.Web.Controllers
 {
     public class BookController : Controller
     {
-        public BookController()
+        private IMappingService mappingService;
+        public BookController(IMappingService _mappingService)
         {
-
+            mappingService = _mappingService;
         }
 
         public ActionResult Index()
         {
             using (UnitOfWork unitOfWork = new UnitOfWork())
             {
-                //var accountRepository = unitOfWork.Repository<Account>();
+                var bookRepository = unitOfWork.Repository<T_Book>().GetAll();
+                var currencyTypeRepository = unitOfWork.Repository<T_CurrencyType>().GetAll();
 
-                //PersonalAccount personalAccount = new PersonalAccount();
-                //personalAccount.CashAccount = new CashAccount();
-                //unitOfWork.Repository<PersonalAccount>().Insert(personalAccount);
-                //unitOfWork.Save();
+                // Join表查询
+                var query = from bo in bookRepository
+                            join cu in currencyTypeRepository on bo.CurrencyTypeID equals cu.CurrencyTypeID
+                            where cu.CurrencyTypeID == 1
+                            select new Book {
+                                ISBN = bo.ISBN,
+                                Price = bo.Price == null ? 0:(decimal)bo.Price,
+                                CurrencyType = (CurrencyType)cu.CurrencyTypeID,
+                                Remark = bo.Remark,
+                                Title = bo.Title,
+                                Author = bo.Author,
+                                Published = bo.Published == null ? new DateTime(): (DateTime)bo.Published                             
+                            };
+                var books = new List<Book>();
+                books = query.ToList();
+                books[0].ISBN = "12345678900";
 
-                //var mainAccount = unitOfWork
-                //.Repository<MainAccount>()
-                //.Get(null,null, "CashAccount,CashAccount.SingleCurrencyCashAccounts")
-                //.FirstOrDefault();
 
-                //var result = accountRepository.GetById(1);
-                // (x=>x.AccountType==AccountType.Main);//(personalAccount);
+                // Update and Automapper
+                var t_book = mappingService.Map<Book,T_Book>(books[0]);
+                unitOfWork.Repository<T_Book>().Update(t_book);
 
-                var bookRepository = unitOfWork.Repository<T_Book>().GetAll().ToList() ;
-                // convert using automapper
-                IEnumerable<Book> books = null;// = bookRepository.Table.ToList();
+                //del using ID
+                unitOfWork.Repository<T_Book>().Delete(t_book.ISBN);
+
+                // unitOfWork.Repository<T_Book>().Update();
                 return View(books);
             }
         }

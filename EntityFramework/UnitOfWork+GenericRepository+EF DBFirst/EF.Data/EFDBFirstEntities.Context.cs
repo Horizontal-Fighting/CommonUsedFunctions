@@ -26,5 +26,6 @@ namespace EF.Data
         }
     
         public virtual DbSet<T_Book> T_Book { get; set; }
+        public virtual DbSet<T_CurrencyType> T_CurrencyType { get; set; }
     }
 }

@@ -1,0 +1,13 @@
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\obj\Debug\EF.Service.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Service.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Service.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\AutoMapper.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Data.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Model.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EntityFramework.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Data.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EF.Model.pdb
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\AutoMapper.xml
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\bin\Debug\EntityFramework.xml
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\obj\Debug\EF.Service.dll
+E:\GitHub\CommonUsedFunctions\EntityFramework\UnitOfWork+GenericRepository+EF DBFirst\EF.Service\obj\Debug\EF.Service.pdb

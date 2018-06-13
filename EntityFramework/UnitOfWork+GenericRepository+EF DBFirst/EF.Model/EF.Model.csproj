@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="AuditModel.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="CurrencyType.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
