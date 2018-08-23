@@ -1,0 +1,12 @@
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.dll
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.pdb
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.csprojResolveAssemblyReference.cache
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\UserControl1.g.cs
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.cache
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.lref
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\UserControl1.baml
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.g.resources
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.Properties.Resources.resources
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.csproj.GenerateResource.Cache
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.dll
+E:\Resources\TestProject\WpfApplication1\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.pdb
